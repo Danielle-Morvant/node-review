@@ -21,11 +21,6 @@ function hidePhoneNumber(text) {
    const maskedNumber = phoneNumber.replace(/(\d{3})[-.\s]?(\d{3})[-.\s]?(\d{4})/, "***-***-$3");
 
 
-   console.log(maskedNumber((543) 453-4732)); // Output: ***-***-7890
-
-
-
- 
-
+   console.log(maskedNumber('(543) 453-7890)')); // Output: ***-***-7890
 
 }
