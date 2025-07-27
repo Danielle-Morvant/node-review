@@ -1,3 +1,43 @@
+# Mini Project: Text Analyzer & Cleaner (Node.js + Regex)
+
+## Overview
+- Build a Text Analyzer & Cleaner: a Node.js script that processes messy strings and extracts or cleans specific information using regular expressions.
+
+<h4>Reinforces:</h4>
+
+- ES module syntax
+
+- Custom utility modules
+
+- Regex practice
+
+- Third-party packages
+
+- npm start scripts
+
+<h4>Objectives</h4>
+
+- Use regex for string analysis and cleanup
+
+- Practice importing and exporting custom modules
+
+- Use a third-party npm package (e.g., chalk)
+
+- Structure a clean Node.js project with working npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## EMAIL VALIDATION
 
 Here’s a regular expression (regex) to match and validate email addresses. It ensures the email follows a standard format like example@domain.com:
