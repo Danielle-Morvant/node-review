@@ -18,7 +18,7 @@ export function hidePhoneNumber(text) {
    const phoneNumber = "(123) 456-7890";
 
    // Masking all digits except the last four
-   const maskedNumber = text.replace(/(\d{3})[-.\s]?(\d{3})[-.\s]?(\d{4})/, "***-***-$3");
+   const maskedNumber = phoneNumber.replace(/(\d{3})[-.\s]?(\d{3})[-.\s]?(\d{4})/, "***-***-$3");
 
 
    console.log(maskedNumber); // Output: ***-***-7890
