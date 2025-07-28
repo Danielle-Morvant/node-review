@@ -3,9 +3,10 @@ import chalk from 'chalk';
 
 console.log(chalk.bgBlackBright("working app.js"));
 
-console.log(validateEmail("danielle@gmail.com"));
+console.log(chalk.bgWhite(validateEmail("danielle@gmail.com")));
+console.log(chalk.bgGreen(validateEmail("fab@disney@hi.com")));
 
-console.log("hello world");
+console.log(chalk.magenta("hello world"));
 
 hidePhoneNumber('(543)453-7890');
 
